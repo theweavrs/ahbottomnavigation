@@ -1030,6 +1030,7 @@ public class AHBottomNavigation extends FrameLayout {
 	 */
 	public void setDefaultBackgroundColor(@ColorInt int defaultBackgroundColor) {
 		this.defaultBackgroundColor = defaultBackgroundColor;
+		Log.w("DefaultBackgroundColor changed " + defaultBackgroundColor);
 		createItems();
 	}
 
